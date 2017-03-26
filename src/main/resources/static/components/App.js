@@ -5,6 +5,7 @@ import React from 'react';
 import Header from './Header';
 import Content from './Content';
 import StateExample from './StateExample';
+import RandomNumber from './RandomNumber';
 
 
 class App extends React.Component {
@@ -19,7 +20,8 @@ class App extends React.Component {
                 <h1>Hello React!!!</h1>
                 <Header title={ this.props.headerTitle }/>
                 <Content title={ this.props.contentTitle }/>
-                <StateExample />
+                <StateExample/>
+                <RandomNumber/>
             </div>
         );
     }
